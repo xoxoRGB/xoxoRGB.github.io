@@ -1,0 +1,28 @@
+/*OH HAI!*/
+
+/***calendar nav: layout + central buttons shape***/
+[data-role="calendarNav"] ul {display:flex;justify-content:center;}
+[data-role="calendarNav"] ul li a.ipsButton {border-radius:0 !important;}
+[data-role="calendarNav"] ul li a {border-color:#6cff5c !important;}
+
+/***calendar nav: elements positioning (mobile view)***/
+@media screen and (max-width:767px) {
+.cCalendarNav [data-role="calendarNav"] {margin-top: 0px;}
+.cCalendarNav [data-role="calendarNav"][class*="ipsGrid_span"] {width:auto;}
+.cCalendarNav ul li a.ipsButton_verySmall {font-size:10px;}
+[data-controller="calendar.front.browse.main"] .ipsPager_prev a,[data-controller="calendar.front.browse.main"] .ipsPager_next a {padding:0 0 0 0 !important;}
+[data-controller="calendar.front.browse.main"] .ipsPager_prev a span,[data-controller="calendar.front.browse.main"] .ipsPager_next a span {display:none;}
+[data-controller="calendar.front.browse.main"] .ipsPager_prev a {top:-100px;}
+[data-controller="calendar.front.browse.main"] .ipsPager_next a {top:37px;}
+}
+
+/***changing white on white clubs headers (mobile view)***/
+@media screen and (max-width:767px) {
+.ipsTable.ipsTable_responsive.ipsMatrix .ipsMatrix_rowTitle {background: #34423b !important;}
+}
+
+/***distinguishing topics: pinned + unread***/
+.ipsDataList.ipsDataList_zebra > .ipsDataItem.vn_pinned_topic {/*background: #34423b;*/border: 2px solid #1e9423;}
+.ipsDataList.ipsDataList_zebra > .ipsDataItem.ipsDataItem_unread {background: #26302b;}
+
+/*KTHXBAI!*/
