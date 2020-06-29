@@ -28,4 +28,8 @@
 /***changing editable title hover color***/
 .ipsType_pageTitle [data-role="editableTitle"]:hover, .ipsType_pageTitle[data-role="editableTitle"]:hover, .ipsType_editable:hover {color:#c3c3c3}
 
+/***changing tags color for better readability***/
+html[dir="ltr"] .ipsTags .ipsTag::before, html[dir="ltr"] .ipsTag_prefix::before, html[dir="ltr"] .ipsTags .ipsTag::before, html[dir="ltr"] .ipsTag_prefix::before {border-color: transparent #7bb562 #7bb562 #7bb562 !important;}
+.ipsTags .ipsTag, .ipsTag_prefix {background:#7bb562 !important;}
+
 /*KTHXBAI!*/
