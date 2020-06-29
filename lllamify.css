@@ -25,4 +25,7 @@
 .ipsDataList.ipsDataList_zebra > .ipsDataItem.vn_pinned_topic {/*background: #34423b;*/border: 2px solid #1e9423;}
 .ipsDataList.ipsDataList_zebra > .ipsDataItem.ipsDataItem_unread {background: #26302b;}
 
+/***changing editable title hover color***/
+[data-role="editableTitle"]:hover {#c3c3c3}
+
 /*KTHXBAI!*/
