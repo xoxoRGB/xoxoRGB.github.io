@@ -26,6 +26,6 @@
 .ipsDataList.ipsDataList_zebra > .ipsDataItem.ipsDataItem_unread {background: #26302b;}
 
 /***changing editable title hover color***/
-[data-role="editableTitle"]:hover {color:#c3c3c3}
+.ipsType_pageTitle [data-role="editableTitle"]:hover, .ipsType_pageTitle[data-role="editableTitle"]:hover, .ipsType_editable:hover {color:#c3c3c3}
 
 /*KTHXBAI!*/
